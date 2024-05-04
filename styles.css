@@ -7,18 +7,31 @@ header {
 
 #img2 {
     position: fixed;
-    width: 800px;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 50%;
+    height: 250px;
+    transform: translateX(-50%);
+    z-index: 1000;
+    border: 5px solid black;
+    /*filter: drop-shadow(10px 10px 10px red);*/
+    box-shadow: 5px 5px red;
 }
 
-main {
-    padding-top: 160px;
+#container {
+    padding-top: 280px;
+}
+
+#images-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 #img1 {
     float: left;
+}
+
+#img5 {
+    float: right;
 }
 
 
