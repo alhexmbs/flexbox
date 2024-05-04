@@ -1,4 +1,41 @@
-body {
-    background: linear-gradient(to right, blue, yellow);
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
+#img2 {
+    position: fixed;
+    width: 800px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    padding-top: 160px;
+}
+
+#img1 {
+    float: left;
+}
+
+
+/*.cuadrado{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: relative;
+    float: right;
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 2.5rem;
+    top: 2.5rem;
+}*/
